@@ -1,0 +1,29 @@
+@api = http://localhost:3000
+
+# obtener todos los videos
+GET {{api}}/videos
+
+# obteniendo un video por ID
+GET {{api}}/videos/6099b8d85f804b4186f5a2f5
+
+GET {{api}}/videos/1
+
+# creando un video
+POST {{api}}/videos
+Content-Type: application/json
+
+{
+    "url": "https://youtu.be/EUB777JJT5E",
+    "title": "Bot con Node.js",
+    "description": "Discord Bot & Node.js, para principiantes"
+}
+
+DELETE {{api}}/videos/6099b6b8960ae9405a1fd4d8
+
+PUT {{api}}/videos/6099b8d85f804b4186f5a2f5
+Content-Type: application/json
+
+{
+    "title": "Pronto seré Desarrollador IA"
+}
+
