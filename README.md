@@ -7,6 +7,6 @@ Aprenderás JS, Python, Docker, Node y alguna que otra cosilla relacionada con D
 ### Contenido
 
 - ✅ [Aprende React en 30 minutos  ⚛️](./aprende-react-basico-en-30-minutos)
-- ✅ [BCRUD de películas con Express, MongoDB y React 🎥](./stack-mern)
+- ✅ [CRUD de películas con Express, MongoDB y React 🎥](./stack-mern)
 - ✅ [Portafolio personal](./portfolios/v1)
 - ⬜️ 
